@@ -248,6 +248,13 @@ nav:hover {
     align-items: center;
 }
 
+.welcome:hover {
+    cursor: pointer;
+    border: 2px solid #c7d2fe;
+    box-shadow: 2px 2px 4px #c7d2fe;
+    border-radius: 12px;
+}
+
 .welcome > .greetingsAccount {
     font-size: 20px;
     line-height: 0.5rem;
@@ -361,6 +368,12 @@ nav:hover {
     opacity: 0.8;
 }
 
+.card:hover {
+    cursor: pointer;
+    border-right: 2px solid lightslategrey;
+    border-bottom: 2px solid lightslategrey;
+}
+
 .btncontainer > button:hover {
     cursor: pointer;
     background-color: #d1d5db;
@@ -398,6 +411,9 @@ nav:hover {
     margin-top: 4px;
 }
 
+.card:nth-child(6) > .text > strong {
+    font-family: "Roboto";
+}
 /*************************
 *  Announcements content *
 **************************/
@@ -436,8 +452,8 @@ nav:hover {
 }
 
 .acctrend > img {
-    width: 60px;
-    height: 60px;
+    width: 45px;
+    height: 45px;
 
     border-radius: 12px;
 }
